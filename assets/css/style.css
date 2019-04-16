@@ -1,0 +1,119 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin : 0;
+    background-color: rgb(255, 255, 255);
+}
+
+#logo{
+    margin: 0;
+    text-shadow: black 2px 2px 2px;
+    color: gold;
+    font-family:serif;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+#vender{
+    color: red;
+}
+
+header{
+    background-color:darkslategrey;
+    color: white;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(148, 7, 167);
+    margin:0 auto;
+    align-items: center;
+    
+    flex-direction: column;
+}
+
+nav a {
+    margin: 3px 0px;
+    border-radius: 5px;
+    display:  flex;
+    justify-content: center;
+    padding: 15px 0px; 
+    background-color: gold;
+    text-decoration: none;
+    width: 30%;
+}
+
+main section {
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 20px;
+    background-size: cover;
+    color:aliceblue;
+}
+
+#brasileira {
+    background-image: url("../img/brasileira.jpg");
+}
+
+#mundial {
+    background-image: url("../img/melhor.jpg");
+}
+
+#proxcamp{
+    background-image: url("../img/campeonato.jpg");
+}
+
+footer a, span{
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+    font-size: 17px;
+}
+
+footer section:nth-child(1){
+    background-color: rgb(173, 45, 202);
+    height: 60px;
+}
+footer section:nth-child(2){
+    height: 30px;
+    background-color: rgb(148, 7, 167);
+}
+
+
+#introducao, #comunidade, #popularidade{
+    margin: 10px 0px;
+    font-size: 25px;
+}
+
+
+#introducao {
+    background-color: blueviolet;
+}
+
+#popularidade {
+    background-color: darkred;
+}
+
+#comunidade {
+    background-color: darkblue;
+}
+
+#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    text-shadow: black 2px 2px 2px;
+    color: gold;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.recuo{
+    text-align: justify;
+    font-size: 20px;
+    font-family: Roboto;
+    text-indent: 4em;
+    margin: 0px 5px;
+}
